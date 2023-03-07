@@ -3,8 +3,9 @@
 # `pip install -r requirements.txt`
 # Make sure you have pip installed!
 # To update just use `pip install -r requirements.txt --upgrade`
-torch
-torchvision
+torch=="1.6.0+cu101"
+torchvision=="0.7.0+cu101"
+pytorch3d=="0.2.5"
 Pillow                # PIL
 scikit-image          #skimage
 tqdm
@@ -12,4 +13,5 @@ opencv-python         # cv2
 trimesh
 PyOpenGL
 ffmpeg
-
+scikit-image
+scikit-learn
